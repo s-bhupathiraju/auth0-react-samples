@@ -1,0 +1,5 @@
+export const AUTH_CONFIG = {
+  domain: 'ebsco-ront.auth0.com',
+  clientId: 'UzliVeaZ71mm8p7rWFMxaggYCH1YdMX3',
+  callbackUrl: 'http://73.159.7.215:9090/userservice/api/greeting/'
+}
