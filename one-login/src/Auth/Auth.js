@@ -7,12 +7,13 @@ export default class Auth {
   tokenRenewalTimeout;
 
   auth0 = new auth0.WebAuth({
+    login_hint: "sbopenathens",
     domain: AUTH_CONFIG.domain,
     clientID: AUTH_CONFIG.clientId,
     redirectUri: AUTH_CONFIG.callbackUrl,
     audience: AUTH_CONFIG.apiUrl,
     responseType: 'token id_token',
-    scope: 'openid profile'
+    scope: 'openid email'
   });
 
   constructor() {

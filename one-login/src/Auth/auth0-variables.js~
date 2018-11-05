@@ -1,5 +1,0 @@
-export const AUTH_CONFIG = {
-  domain: 'ebsco-ront.auth0.com',
-  clientId: '5gd09Rbu08FtNjRBVhUgJXMg36VwMO8i'
-  callbackUrl: 'https://github.com/EBSCOIS'
-}
